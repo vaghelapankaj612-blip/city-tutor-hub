@@ -2,7 +2,7 @@
 import { useEffect, useState, useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 
-const API_BASE = "http://localhost:5000";
+import API_BASE from "../services/api";
 const SESSION_MS = 24 * 60 * 60 * 1000;
 
 function ContactComponent() {

@@ -1,6 +1,7 @@
 import { useMemo, useState } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
 import "../styles/authGlass.css";
+import API_BASE from "../services/api";
 
 export default function Register() {
   const navigate = useNavigate();
@@ -49,7 +50,7 @@ export default function Register() {
     try {
       setLoading(true);
 
-      const res = await fetch("http://localhost:5000/api/register", {
+      const res = await fetch(`${API_BASE}/api/register`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({

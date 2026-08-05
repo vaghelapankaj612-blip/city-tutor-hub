@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useParams, NavLink, useNavigate } from "react-router-dom";
 import "../styles/authGlass.css";
+import API_BASE from "../services/api";
 
 export default function ResetPassword() {
   const { token } = useParams();
@@ -30,7 +31,7 @@ export default function ResetPassword() {
     try {
       setLoading(true);
 
-      const res = await fetch(`http://localhost:5000/api/reset-password/${token}`, {
+      const res = await fetch(`${API_BASE}/api/reset-password/${token}`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ password, confirmPassword }),

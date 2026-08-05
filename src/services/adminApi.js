@@ -1,4 +1,5 @@
-const API_BASE = "http://localhost:5000/api";
+import API_BASE from "./api";
+const ADMIN_API = `${API_BASE}/api`;
 
 function getAdminToken() {
   return localStorage.getItem("adminToken");
@@ -8,7 +9,7 @@ async function request(path, options = {}) {
   const token = getAdminToken();
 
   try {
-    const res = await fetch(`${API_BASE}${path}`, {
+    const res = await fetch(`${ADMIN_API}${path}`, {
       ...options,
       headers: {
         "Content-Type": "application/json",

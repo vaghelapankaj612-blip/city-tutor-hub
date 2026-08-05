@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState, useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 
-const API_BASE = "http://localhost:5000";
+import API_BASE from "../services/api";
 
 
 const isSunday = (d) => d && new Date(d).getDay() === 0;

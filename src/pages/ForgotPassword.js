@@ -1,9 +1,10 @@
 import { useState,useEffect } from "react";
-import { NavLink,useNavigate } from "react-router-dom";
+import { NavLink,} from "react-router-dom";
 import "../styles/authGlass.css";
+import API_BASE from "../services/api";
 
 export default function ForgotPassword() {
-    const navigate = useNavigate();
+
     useEffect(() => {
     // current page history માં push કરો
     window.history.pushState(null, "", window.location.href);
@@ -35,7 +36,7 @@ export default function ForgotPassword() {
 
     try {
       setLoading(true);
-      const res = await fetch("http://localhost:5000/api/forgot-password", {
+      const res = await fetch(`${API_BASE}/api/forgot-password`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ emailOrMobile }),
