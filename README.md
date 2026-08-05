@@ -4,40 +4,49 @@
 
 
 <p align="center">
-  <a href="https://city-tutor-hub.vercel.app">
-    <img src="https://img.shields.io/badge/🚀_Live_Demo-Visit_Website-0A66C2?style=for-the-badge" alt="Live Demo">
-  </a>
 
-  <a href="https://github.com/vaghelapankaj612-blip/city-tutor-hub">
-    <img src="https://img.shields.io/badge/📂_Source_Code-GitHub-181717?style=for-the-badge&logo=github" alt="GitHub">
-  </a>
+<a href="https://city-tutor-hub-prux.vercel.app">
+<img src="https://img.shields.io/badge/🚀_Live_Demo-Vercel-success?style=for-the-badge" />
+
+</a>
+
+<a href="https://city-tutor-hub-backend.onrender.com">
+<img src="https://img.shields.io/badge/API-Render-blue?style=for-the-badge" />
+
+</a>
+
+<a href="https://github.com/vaghelapankaj612-blip/city-tutor-hub">
+<img src="https://img.shields.io/badge/Source-GitHub-black?style=for-the-badge&logo=github" />
+
+</a>
+
 </p>
 
 
 # City Tutor Hub
 
-City Tutor Hub is a full-stack MERN application that I built to make it easier for students to find tutors and book demo sessions online. The idea behind this project was to create a simple, user-friendly platform where students can connect with tutors while giving administrators complete control over users, tutors, bookings, and inquiries.
+City Tutor Hub is a production-ready MERN Stack web application that connects students with qualified tutors through an easy-to-use online platform.
 
-This project helped me improve my understanding of React, Node.js, Express, MongoDB, authentication, REST APIs, and full-stack application development.
+The application provides secure authentication, tutor discovery, demo class booking, inquiry management, and a complete admin dashboard for managing users, tutors, appointments, and platform activities.
 
+This project was built to strengthen my full-stack development skills using React, Node.js, Express.js, MongoDB, REST APIs, JWT Authentication, and cloud deployment.
 ---
 
-## Features
+## ✨ Features
 
-- User registration and login
-- Secure authentication using JWT
-- Browse available tutors
-- Book demo sessions
-- Send inquiries to tutors
-- User profile management
-- Admin dashboard
-- Manage tutors
-- Manage users
-- Manage appointments
-- Manage inquiries
-- Email notifications using Nodemailer
-- MongoDB Atlas integration
-- Responsive design
+- 🔐 JWT Authentication
+- 👤 User Registration & Login
+- 👨‍🏫 Tutor Listing
+- 📅 Demo Class Booking
+- 📧 Email Notifications
+- 💬 Tutor Inquiry System
+- 👨‍💼 Admin Dashboard
+- 👥 User Management
+- 📚 Tutor Management
+- 📆 Appointment Management
+- 📩 Inquiry Management
+- ☁️ MongoDB Atlas Database
+- 🌐 Fully Responsive UI
 
 ---
 
@@ -58,17 +67,22 @@ This project helped me improve my understanding of React, Node.js, Express, Mong
 
 ---
 
-## Project Structure
-
-```text
 city-tutor-hub
 │
 ├── public
 ├── src
+│   ├── components
+│   ├── pages
+│   ├── services
+│   └── assets
+│
 ├── server
-├── package.json
+│   ├── models
+│   ├── routes
+│   ├── middleware
+│   └── utils
+│
 └── README.md
-```
 
 ---
 
@@ -110,33 +124,70 @@ Start the backend
 node server.js
 ```
 
+
+## 🔑 Demo Credentials
+
+### User
+
+Create your own account using Register.
+
+### Admin
+
+Email
+
+admin@citytutorhub.com
+
+Password
+
+********
+
+(Admin credentials available on request.)
+
 ---
+
 
 ## Environment Variables
 
 Create a `.env` file inside the `server` folder and add your own values.
 
 ```env
-PORT=5000
-MONGO_URL=YOUR_MONGODB_URI
-JWT_SECRET=YOUR_SECRET
-SMTP_HOST=YOUR_SMTP_HOST
-SMTP_PORT=587
-SMTP_USER=YOUR_EMAIL
-SMTP_PASS=YOUR_APP_PASSWORD
-FROM_EMAIL=YOUR_EMAIL
-BACKEND_URL=http://localhost:5000
-FRONTEND_URL=http://localhost:3000
-## Demo Access
+PORT=
 
-The application is available for live testing.
+MONGO_URL=
 
-For admin access, please contact me.
+JWT_SECRET=
 
-📧 Email: your-email@example.com
+SMTP_HOST=
+
+SMTP_PORT=
+
+SMTP_USER=
+
+SMTP_PASS=
+
+FROM_EMAIL=
+
+FRONTEND_URL=
+
+BACKEND_URL=
+
 ```
 
 ---
+
+## 🚀 Deployment
+
+Frontend
+
+Vercel
+
+Backend
+
+Render
+
+Database
+
+MongoDB Atlas
 
 ## What I Learned
 
@@ -166,11 +217,17 @@ Some features I would like to add in the future:
 
 ---
 
-## Author
+## 👨‍💻 Author
 
-**Pankaj Vaghela**
+Pankaj Vaghela
 
-GitHub: https://github.com/vaghelapankaj612-blip
+GitHub
+
+https://github.com/vaghelapankaj612-blip
+
+LinkedIn
+
+https://www.linkedin.com/in/your-linkedin-profile
 
 ---
 
