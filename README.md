@@ -5,15 +5,15 @@
 <p align="center">
 
 <a href="https://city-tutor-hub-prux.vercel.app">
-<img src="https://img.shields.io/badge/🚀_Live_Demo-Visit_Website-success?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Live%20Demo-Visit%20Website-success?style=for-the-badge" />
 </a>
 
 <a href="https://github.com/vaghelapankaj612-blip/city-tutor-hub">
-<img src="https://img.shields.io/badge/📂_GitHub-Source_Code-black?style=for-the-badge&logo=github" />
+<img src="https://img.shields.io/badge/GitHub-Source%20Code-black?style=for-the-badge&logo=github" />
 </a>
 
-<a href="https://www.linkedin.com/in/pankajvaghela0307">
-<img src="https://img.shields.io/badge/💼_LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" />
+<a href="https://www.linkedin.com/in/pankajvaghela0307?utm_source=share_via&utm...ontent=profile">
+<img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" />
 </a>
 
 </p>
@@ -235,7 +235,7 @@ https://github.com/vaghelapankaj612-blip
 
 LinkedIn
 
-https://www.linkedin.com/in/pankajvaghela0307
+https://www.linkedin.com/in/pankajvaghela0307?utm_source=share_via&utm...ontent=profile
 
 ---
 
