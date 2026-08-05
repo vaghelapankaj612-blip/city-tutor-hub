@@ -26,4 +26,8 @@ yarn-error.log*
 /server/node_modules
 /server/.env
 
+# Environment files
+.env
+.env.*
+
 .vscode/
