@@ -1,70 +1,154 @@
-# Getting Started with Create React App
+# City Tutor Hub
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+City Tutor Hub is a full-stack MERN application that I built to make it easier for students to find tutors and book demo sessions online. The idea behind this project was to create a simple, user-friendly platform where students can connect with tutors while giving administrators complete control over users, tutors, bookings, and inquiries.
 
-## Available Scripts
+This project helped me improve my understanding of React, Node.js, Express, MongoDB, authentication, REST APIs, and full-stack application development.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- User registration and login
+- Secure authentication using JWT
+- Browse available tutors
+- Book demo sessions
+- Send inquiries to tutors
+- User profile management
+- Admin dashboard
+- Manage tutors
+- Manage users
+- Manage appointments
+- Manage inquiries
+- Email notifications using Nodemailer
+- MongoDB Atlas integration
+- Responsive design
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## Built With
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Frontend
+- React.js
+- React Router
+- Bootstrap 5
 
-### `npm run build`
+### Backend
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- JWT Authentication
+- Nodemailer
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Project Structure
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```text
+city-tutor-hub
+│
+├── public
+├── src
+├── server
+├── package.json
+└── README.md
+```
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Getting Started
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Clone the repository
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+git clone https://github.com/vaghelapankaj612-blip/city-tutor-hub.git
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Install frontend dependencies
 
-## Learn More
+```bash
+npm install
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Start the frontend
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+npm start
+```
 
-### Code Splitting
+Go to the server folder
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+cd server
+```
 
-### Analyzing the Bundle Size
+Install backend dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+npm install
+```
 
-### Making a Progressive Web App
+Start the backend
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+node server.js
+```
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Environment Variables
 
-### Deployment
+Create a `.env` file inside the `server` folder and add your own values.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```env
+PORT=5000
+MONGO_URL=YOUR_MONGODB_URI
+JWT_SECRET=YOUR_SECRET
+SMTP_HOST=YOUR_SMTP_HOST
+SMTP_PORT=587
+SMTP_USER=YOUR_EMAIL
+SMTP_PASS=YOUR_APP_PASSWORD
+FROM_EMAIL=YOUR_EMAIL
+BACKEND_URL=http://localhost:5000
+FRONTEND_URL=http://localhost:3000
+```
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## What I Learned
+
+While building this project, I learned how to:
+
+- Build a complete MERN stack application
+- Design REST APIs with Express
+- Connect React with Node.js
+- Work with MongoDB and Mongoose
+- Implement JWT authentication
+- Send emails using Nodemailer
+- Manage bookings and inquiries
+- Deploy applications using GitHub and cloud services
+
+---
+
+## Future Improvements
+
+Some features I would like to add in the future:
+
+- Online payment integration
+- Live chat
+- Tutor ratings and reviews
+- Video meeting integration
+- Search and filter improvements
+- Notifications
+
+---
+
+## Author
+
+**Pankaj Vaghela**
+
+GitHub: https://github.com/vaghelapankaj612-blip
+
+---
+
+⭐ If you found this project interesting, feel free to explore the repository.
