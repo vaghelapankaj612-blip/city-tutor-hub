@@ -23,7 +23,7 @@
 
 </p>
 
----
+
 
 ---
 
@@ -34,6 +34,7 @@ City Tutor Hub is a production-ready MERN Stack web application that connects st
 The application provides secure authentication, tutor discovery, demo class booking, inquiry management, and a complete admin dashboard for managing users, tutors, appointments, and platform activities.
 
 This project was built to strengthen my full-stack development skills using React, Node.js, Express.js, MongoDB, REST APIs, JWT Authentication, and cloud deployment.
+
 ---
 
 ## ✨ Features
