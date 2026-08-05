@@ -8,7 +8,7 @@
 <img src="https://img.shields.io/badge/🚀%20Live%20Demo-success?style=for-the-badge" />
 </a>
 
-<a href="https://github.com/vaghelapankaj612-blip/city-tutor-hub">
+<a href="https://github.com/PankajVaghela0307/city-tutor-hub">
 <img src="https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github" />
 </a>
 
@@ -231,7 +231,7 @@ During the development of this project, I gained hands-on experience with:
 
 GitHub
 
-https://github.com/vaghelapankaj612-blip
+https://github.com/PankajVaghela0307/city-tutor-hub
 
 LinkedIn
 
