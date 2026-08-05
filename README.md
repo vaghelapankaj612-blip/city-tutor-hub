@@ -7,18 +7,15 @@
 <p align="center">
 
 <a href="https://city-tutor-hub-prux.vercel.app">
-<img src="https://img.shields.io/badge/🚀_Live_Demo-Vercel-success?style=for-the-badge" />
-
-</a>
-
-<a href="https://city-tutor-hub-backend.onrender.com">
-<img src="https://img.shields.io/badge/API-Render-blue?style=for-the-badge" />
-
+<img src="https://img.shields.io/badge/🚀_Live_Demo-Visit_Website-success?style=for-the-badge" />
 </a>
 
 <a href="https://github.com/vaghelapankaj612-blip/city-tutor-hub">
-<img src="https://img.shields.io/badge/Source-GitHub-black?style=for-the-badge&logo=github" />
+<img src="https://img.shields.io/badge/📂_GitHub-Source_Code-black?style=for-the-badge&logo=github" />
+</a>
 
+<a href="https://www.linkedin.com/in/pankajvaghela0307?utm_source=share_via&utm...ontent=profile">
+<img src="https://img.shields.io/badge/💼_LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" />
 </a>
 
 </p>
@@ -227,15 +224,21 @@ Some features I would like to add in the future:
 
 Pankaj Vaghela
 
-GitHub
+<p align="right">
 
-https://github.com/vaghelapankaj612-blip
 
-LinkedIn
 
-https://www.linkedin.com/in/pankajvaghela0307?utm_source=share_via&utm...ontent=profile
+<a href="https://github.com/vaghelapankaj612-blip/city-tutor-hub">
+<img src="https://img.shields.io/badge/📂_GitHub-Source_Code-black?style=for-the-badge&logo=github" />
+</a>
 
----
+<a href="https://www.linkedin.com/in/pankajvaghela0307?utm_source=share_via&utm...ontent=profile">
+<img src="https://img.shields.io/badge/💼_LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" />
+</a>
+
+</p>
+
+
 
 ---
 
