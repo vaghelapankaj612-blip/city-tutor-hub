@@ -109,7 +109,11 @@ Start the backend
 ```bash
 node server.js
 ```
-
+Admin Id AND PassWord
+```
+ADMIN_EMAIL=admin@citytutorhub.com
+ADMIN_PASSWORD=Admin@12345
+```
 ---
 
 ## Environment Variables
