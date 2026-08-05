@@ -1,3 +1,8 @@
+
+
+<img width="1681" height="935" alt="banner" src="https://github.com/user-attachments/assets/541c556c-0370-49de-a084-f44fac021edd" />
+
+
 # City Tutor Hub
 
 City Tutor Hub is a full-stack MERN application that I built to make it easier for students to find tutors and book demo sessions online. The idea behind this project was to create a simple, user-friendly platform where students can connect with tutors while giving administrators complete control over users, tutors, bookings, and inquiries.
