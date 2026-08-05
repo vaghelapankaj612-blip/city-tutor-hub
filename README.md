@@ -2,6 +2,7 @@
 
 <img width="1681" height="935" alt="banner" src="https://github.com/user-attachments/assets/541c556c-0370-49de-a084-f44fac021edd" />
 
+---
 
 <p align="center">
 
@@ -22,6 +23,9 @@
 
 </p>
 
+---
+
+---
 
 # City Tutor Hub
 
@@ -188,6 +192,7 @@ Render
 Database
 
 MongoDB Atlas
+---
 
 ## What I Learned
 
@@ -227,7 +232,7 @@ https://github.com/vaghelapankaj612-blip
 
 LinkedIn
 
-https://www.linkedin.com/in/your-linkedin-profile
+https://www.linkedin.com/in/pankajvaghela0307?utm_source=share_via&utm...ontent=profile
 
 ---
 
