@@ -3,6 +3,17 @@
 <img width="1681" height="935" alt="banner" src="https://github.com/user-attachments/assets/541c556c-0370-49de-a084-f44fac021edd" />
 
 
+<p align="center">
+  <a href="https://city-tutor-hub.vercel.app">
+    <img src="https://img.shields.io/badge/🚀_Live_Demo-Visit_Website-0A66C2?style=for-the-badge" alt="Live Demo">
+  </a>
+
+  <a href="https://github.com/vaghelapankaj612-blip/city-tutor-hub">
+    <img src="https://img.shields.io/badge/📂_Source_Code-GitHub-181717?style=for-the-badge&logo=github" alt="GitHub">
+  </a>
+</p>
+
+
 # City Tutor Hub
 
 City Tutor Hub is a full-stack MERN application that I built to make it easier for students to find tutors and book demo sessions online. The idea behind this project was to create a simple, user-friendly platform where students can connect with tutors while giving administrators complete control over users, tutors, bookings, and inquiries.
@@ -156,4 +167,14 @@ GitHub: https://github.com/vaghelapankaj612-blip
 
 ---
 
-⭐ If you found this project interesting, feel free to explore the repository.
+---
+
+## License
+
+This project is licensed under the MIT License.
+
+You are free to use, modify, and distribute this project for learning and educational purposes.
+
+---
+
+⭐ Thank you for visiting this repository. If you found this project useful, consider giving it a star.
