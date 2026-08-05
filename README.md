@@ -109,11 +109,7 @@ Start the backend
 ```bash
 node server.js
 ```
-Admin Id AND PassWord
-```
-ADMIN_EMAIL=admin@citytutorhub.com
-ADMIN_PASSWORD=Admin@12345
-```
+
 ---
 
 ## Environment Variables
@@ -131,6 +127,13 @@ SMTP_PASS=YOUR_APP_PASSWORD
 FROM_EMAIL=YOUR_EMAIL
 BACKEND_URL=http://localhost:5000
 FRONTEND_URL=http://localhost:3000
+## Demo Access
+
+The application is available for live testing.
+
+For admin access, please contact me.
+
+📧 Email: your-email@example.com
 ```
 
 ---
